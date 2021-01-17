@@ -1,9 +1,11 @@
-body
-{
+html, body{
   margin: 0;
   padding: 0;
+}
+
+body
+{
   background: #1D1D1D;
-  color: #cdcdcd;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -124,23 +126,16 @@ body
   transform: none;
 }
 
-#container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
 #presentation {
     display: grid;
     justify-content: center;
-    align-content: center;
-    margin-top: 36%;
+    align-items : center;
 }
 
 #presentation h1 {
     color:#E09D29;
-    justify-self: center;
+    text-align: center;
     font-size: 48pt;
-
 }
 
 #presentation p {
@@ -153,18 +148,18 @@ body
     justify-content: center;
     grid-template-columns: repeat(3,5vw);
     margin: auto;
-    margin-top: 5%;
     width: 80%;
 
 }
 #contact .pastille_contact {
     width: 2vw;
+    height: 2vw;
     background-color: #FBF2C8;
     transform: rotate(45deg);
     padding: 5%;
     border-radius: 15px;
     margin-left: 20%;
-    box-shadow: 0px 1px #FBF2C8;
+    margin-top: 15%;
 }
 
 #contact img {
